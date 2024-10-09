@@ -79,9 +79,9 @@
   }
 
   &__menu-language--language {
-    color: #291e56;
+    color: var(--gray-color);
     &.active {
-      color: #c9d6e0;
+      color: var(--light-gray-color);
       position: relative;
     }
   }
@@ -92,6 +92,11 @@
     border-radius: 2px;
     text-align: center;
     line-height: 10px;
+    transition: 0.2s linear;
+
+    &:hover {
+      background: var(--brand-color-hover);
+    }
 
     @media screen and (min-width: $breakpoint-md) {
       padding: 12px 13px;
