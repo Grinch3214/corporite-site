@@ -1,0 +1,23 @@
+body {
+  font-family: "Montserrat";
+  color: var(--gray-color);
+  overflow-x: hidden;
+  background: var(--white-color);
+}
+
+.container {
+  padding: 0 20px;
+
+  @media screen and (min-width: $breakpoint-md) {
+    max-width: 730px;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: $breakpoint-lg) {
+    max-width: 1150px;
+  }
+}
+
+.default-title {
+  @include title;
+}

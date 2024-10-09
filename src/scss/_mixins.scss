@@ -1,0 +1,10 @@
+@mixin title {
+  color: var(--gray-color);
+  font-size: 18px;
+  font-weight: 900;
+  text-transform: uppercase;
+
+  @media screen and (min-width: $breakpoint-md) {
+    font-size: 30px;
+  }
+}
