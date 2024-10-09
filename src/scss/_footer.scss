@@ -1,0 +1,16 @@
+.footer {
+  padding: 35px 0;
+  background: var(--light-color);
+
+  @media screen and (min-width: $breakpoint-lg) {
+    padding: 25px 0;
+  }
+
+  &__body {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__body-text {
+  }
+}
