@@ -1,0 +1,58 @@
+.cases {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @media screen and (min-width: $breakpoint-md) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @media screen and (min-width: $breakpoint-lg) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  &__title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  &__list {
+    display: grid;
+    gap: 30px;
+    @media screen and (min-width: $breakpoint-lg) {
+      gap: 40px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__list-item {
+    padding-left: 70px;
+    background: url("/src/img/case-1.png") no-repeat left top / 50px auto;
+    min-height: 70px;
+
+    &:nth-child(2) {
+      background-image: url("/src/img/case-2.svg");
+    }
+
+    @media screen and (min-width: $breakpoint-md) {
+      padding-left: 125px;
+      background-size: 100px auto;
+      min-height: 141px;
+    }
+  }
+
+  &__list-item-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    @media screen and (min-width: $breakpoint-lg) {
+      max-width: 245px;
+    }
+  }
+
+  &__list-item-desc {
+    line-height: 24px;
+    @media screen and (min-width: $breakpoint-md) {
+      font-size: 18px;
+      line-height: 30px;
+    }
+  }
+}
