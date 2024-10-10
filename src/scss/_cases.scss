@@ -32,6 +32,14 @@
       background-image: url("/src/img/case-2.svg");
     }
 
+    &:nth-child(3) {
+      background-image: url("/src/img/case-3.svg");
+    }
+
+    &:nth-child(4) {
+      background-image: url("/src/img/case-4.svg");
+    }
+
     @media screen and (min-width: $breakpoint-md) {
       padding-left: 125px;
       background-size: 100px auto;
