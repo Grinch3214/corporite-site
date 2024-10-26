@@ -1,4 +1,4 @@
-# Parallax-effect
+# Simple corporate site
 
 ## Demo
 
