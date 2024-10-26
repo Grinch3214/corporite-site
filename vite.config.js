@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
 
 // you can use our path for your project
-const rootPath = '/'
+const rootPath = '/corporite-site/'
 // example: const rootPath = '/my-path/'
 
 export default defineConfig({
